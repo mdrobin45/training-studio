@@ -151,7 +151,7 @@ section.our-class-main-section>div img {
     width: 70%;
     margin: 1rem 0;
 }
-.our-class-main-section>div a:not(.schedules-btn):hover h3{
+.our-class-main-section>div a:not(.schedules-btn):hover h3,.trainer-main-section>.container article>div a>i:hover{
     color: var(--main-color);
 }
 .schedules-btn {
@@ -163,4 +163,101 @@ section.our-class-main-section article>img {
 }
 section.our-class-main-section article>h3 {
     padding: 1rem 0;
+}
+
+
+.class-schedule-main-seciton>.container>.all-section-header p{
+    color: var(--color-white);
+}
+.class-schedule-main-seciton{
+    background: #333;
+    color: #fff;
+}
+.class-schedule-main-seciton>.container ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.class-schedule-main-seciton>.container ul{
+    display: flex;
+    justify-content: center;
+}
+.class-schedule-main-seciton>.container ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding:10px;
+    font-weight: bold;
+}
+.class-schedule-main-seciton>.container ul li:nth-child(1) a{
+    color: var(--main-color);
+}
+.class-schedule-main-seciton>.container ul span {
+    font-weight: bold;
+}
+.class-schedule-main-seciton>.container ul li:hover a{
+    color: var(--main-color);
+}
+
+.schedule-routin-main-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,100px);
+    padding: 2rem 0;
+}
+.schedule-boxes{
+    border: 0.5px solid var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.trainer-main-section>.container article {
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 15px;
+    margin: 0 1rem;
+    padding: 25px;
+    border-radius: 5px;
+}
+section.trainer-main-section>.container article p {
+    padding: 10px 0;
+}
+section.trainer-main-section>.container article>div a>i {
+    color: #333;
+    padding: 0 10px;
+}
+.trainer-main-section>.container article>div a>i:hover{
+    color: var(--main-color);
+}
+.contact-from-main-sec{
+    justify-content: space-between;
+    display: flex;
+    padding: 8rem 0;
+}
+.form-contact {
+    width: 65%;
+    margin: auto;
+    padding: 18px 43px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0px 15px;
+}
+.form-section{
+    background: #333;
+}
+input[type="text"],textarea {
+    width: 100%;
+    margin: 10px 0;
+    color: #7a7a7a;
+    padding: 12px 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+.contact-from-main-sec button{
+    cursor: pointer;
+}
+section.half-width.form-section {
+    padding: 4rem 0;
+}
+section.copyright {
+    text-align: center;
 }
