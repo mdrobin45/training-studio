@@ -196,7 +196,9 @@ section.our-class-main-section article>h3 {
 .class-schedule-main-seciton>.container ul li:hover a{
     color: var(--main-color);
 }
-
+section.trainer-main-section>.container article img {
+    width: 100%;
+}
 .schedule-routin-main-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
